@@ -1,0 +1,4 @@
+
+type Mutation {
+    Login(email: String!, password: String!): Customer @resolver(class: "Codilar\\CoustomerGraphQl\\Model\\Resolver\\Login") @doc(description:"Retrieve the customer details")
+}
