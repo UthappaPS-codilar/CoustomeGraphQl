@@ -12,7 +12,7 @@ use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
 use Magento\GraphQl\Model\Query\ContextInterface;
 
-class Login implements ResolverInterface
+class CustomerInformation implements ResolverInterface
 {
     /**
      * @var GetCustomer
